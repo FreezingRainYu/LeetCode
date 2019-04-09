@@ -16,6 +16,6 @@ class Solution {
             }
             reverse = reverse * 10 + digital;
         }
-        return (x == reverse);
+        return x == reverse;
     }
 }
