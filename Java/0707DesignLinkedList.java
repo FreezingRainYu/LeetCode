@@ -9,10 +9,6 @@ class MyLinkedList {
         MyListNode prev;
         MyListNode next;
 
-        MyListNode() {
-            val = -1;
-        }
-
         MyListNode(int x) {
             val = x;
         }
@@ -26,7 +22,7 @@ class MyLinkedList {
      */
     public MyLinkedList() {
         size = 0;
-        head = new MyListNode();
+        head = new MyListNode(-1);
         head.next = head;
         head.prev = head;
     }
