@@ -1,5 +1,5 @@
 /**
- * @date 20190414
+ * @date 2019/04/14
  */
 class Solution {
     public String convert(String s, int numRows) {
